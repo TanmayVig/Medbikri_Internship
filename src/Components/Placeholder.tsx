@@ -1,7 +1,7 @@
 import * as React from "react";
 
 interface IProps {
-  height: number;
+  height: number | string;
 }
 
 const Placeholder: React.FC<IProps> = ({ height }) => {
